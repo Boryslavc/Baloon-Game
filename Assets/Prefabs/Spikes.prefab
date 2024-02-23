@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4825246444338236112}
   - component: {fileID: 3746600492679268178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spike (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8022187589592360552}
   - component: {fileID: 7689935026029153616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spike (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2305467213434513293}
   - component: {fileID: 6937951830463880976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spike (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445678365444735560}
   - component: {fileID: 5438876186897364428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,9 +347,9 @@ GameObject:
   - component: {fileID: 804724479747404446}
   - component: {fileID: 7390676099476679460}
   - component: {fileID: 1987680278848346624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spikes
-  m_TagString: Untagged
+  m_TagString: SharpObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,7 +402,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.052031875, y: 0.27641964}

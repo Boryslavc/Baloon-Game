@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656663185111436235}
   - component: {fileID: 5365862337759392383}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: s (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298508107299326276}
   - component: {fileID: 8428891177682895185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: s (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2687105767430915061}
   - component: {fileID: 4068602858139143738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8607418236769693375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HangingClothes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 6907258714109666027}
   - component: {fileID: 7809666900298019175}
   - component: {fileID: 2099332443303991241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TSHIRT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7555233363024916091}
   - component: {fileID: 3278575657157639551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: s
   m_TagString: Untagged
   m_Icon: {fileID: 0}

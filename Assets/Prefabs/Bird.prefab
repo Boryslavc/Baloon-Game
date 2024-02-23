@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1145033056666721678}
   - component: {fileID: 4484509315014415182}
   - component: {fileID: 6441681403287718612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bird
-  m_TagString: Untagged
+  m_TagString: SharpObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.19636977, y: -0.49092412}
@@ -199,5 +199,5 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   sprite: {fileID: 0}
-  interval: 1
-  duration: 2
+  intervalBeforeChangingDirection: 0
+  transitionDuration: 0

@@ -8,8 +8,8 @@ public class InBetweenMover : MonoBehaviour
     [SerializeField] private AnimationCurve curve;
     [SerializeField] private Transform[] points;
     [SerializeField] private SpriteRenderer sprite;
-    [SerializeField] private float interval;
-    [SerializeField] private float duration;
+    [SerializeField] private float intervalBeforeChangingDirection;
+    [SerializeField] private float transitionDuration;
 
     private int current = 0;
 
@@ -21,7 +21,7 @@ public class InBetweenMover : MonoBehaviour
     }
     private IEnumerator Move()
     {
-        var wait = new WaitForSeconds(interval);
+        var wait = new WaitForSeconds(intervalBeforeChangingDirection);
 
         while (true)
         {       
@@ -30,7 +30,7 @@ public class InBetweenMover : MonoBehaviour
             Vector3 endPos = points[targetPoint].position;
 
             float time = 0;
-            while(time < duration)
+            while(time < transitionDuration)
             {
                 transform.position = Vector3.Lerp(startPos,endPos,curve.Evaluate(time));
                 time += Time.deltaTime;
