@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
             CreateWindForce(mousePosition);
         }
     }
-    // need to return vector 2 so thatwhen unity converts it to vector 3
+    // need to return vector 2 so that when unity converts it to vector 3
     // z value equals zero,
     // otherwise windForce is redered outside of the camera frustrum
     private Vector2 CalculatePosition()

@@ -1,17 +1,17 @@
 using System.Collections;
 using UnityEngine;
-using DG.Tweening;
+
 
 
 public class InBetweenMover : MonoBehaviour
 {
     [SerializeField] private AnimationCurve curve;
     [SerializeField] private Transform[] points;
-    [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private float intervalBeforeChangingDirection;
     [SerializeField] private float transitionDuration;
 
     private int current = 0;
+    private SpriteRenderer sprite;
 
     private void Start()
     {
