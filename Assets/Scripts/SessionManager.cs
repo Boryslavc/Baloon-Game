@@ -9,8 +9,8 @@ public class SessionManager : MonoBehaviour
 {
     public static SessionManager Instance;
 
-    [SerializeField] private Present present;
-    [SerializeField] private PlayerObserver playerObserver;
+    [SerializeField] private Present Present;
+    [SerializeField] private PlayerObserver PlayerObserver;
 
     private int currentSceneNumber;
 
@@ -30,10 +30,10 @@ public class SessionManager : MonoBehaviour
 
     private IEnumerator StartSession()
     {
-        playerObserver.StartCameraSpanCoroutine();
-        float waitTime = playerObserver.levelPreviewDuration;
+        PlayerObserver.StartCameraSpanCoroutine();
+        float waitTime = PlayerObserver.levelPreviewDuration;
         yield return new WaitForSeconds(waitTime);
-        present.StartMoving();
+        Present.StartMoving();
     }
     public void LoadNextLevel()
     {

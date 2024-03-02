@@ -20,4 +20,8 @@ public class UIManager : MonoBehaviour
         else 
             lostPanel.SetActive(true);
     }
+    private void OnDisable()
+    {
+        present.OnSessionWon -= LoadGameOverPanel;
+    }
 }
